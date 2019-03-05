@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Breakfast"/>
+        <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Lunch"/>
+        <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Dinner"/>
+        <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Fast Food"/>
+        <item
+                android:id="@+id/fast_food"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Beverages"/>
+        <item
+                android:id="@+id/drinks"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Drinks"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="About"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/rate"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="rate"/>
+        </menu>
+    </item>
+
+</menu>
